@@ -1,6 +1,9 @@
 name: Test site for publicly known js vulnerabilities
 
-on: push
+on:
+  push:
+    branches: [dev]
+
 jobs:
   security:
     runs-on: ubuntu-latest
