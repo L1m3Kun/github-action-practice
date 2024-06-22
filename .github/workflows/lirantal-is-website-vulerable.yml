@@ -2,7 +2,7 @@ name: Test site for publicly known js vulnerabilities
 
 on:
   push:
-    branches: [dev]
+    branches: [main]
 
 jobs:
   security:
