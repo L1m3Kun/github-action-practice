@@ -37,3 +37,4 @@ jobs:
             git pull origin main
             rm -r build/
             npm run build
+            serve -s build
