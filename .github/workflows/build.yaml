@@ -35,3 +35,5 @@ jobs:
             cd public_html/github-action-practice/
             git reset --hard
             git pull origin main
+            rm -r build/
+            npm run build
